@@ -1,17 +1,20 @@
+body { 
+    padding-top: 99px; 
+}
+
 .navbar-default {
-    background-color:transparent;
-    background: transparent;
+    background: white;
     border:0px;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
     box-shadow: none;
 }
 
 #nav_Item {
-  font-family: Montserrat;
-  font-size: 12px;
-  margin-top: 1.563em;
+  font-family: "Fira Sans";
+  font-size: 15px;
+  margin-top: 2.0em;
   color: black;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 #nav_Item:hover {
@@ -19,10 +22,20 @@
   opacity: 1;
 }
 
+.navbar-collapse ul li:first-child {
+    margin-bottom: -20px;
+}
+
+.navbar-collapse ul li {
+    margin-bottom: -10px;
+    overflow-y: hidden;
+}
+
 #logo_size {
-    margin-top: 1.5em;
+    margin-top: 1em;
+    margin-left: 1em;
     max-width: 100%;
-    height: auto;
+    height: 75px;
 }
 
 .navbar .navbar-collapse {
@@ -32,7 +45,7 @@
 .navbar-toggle {
     border: none;
     background: transparent !important;
-    margin-top:42px;
+    margin-top:28px;
     padding-bottom: 0px;
 }
 
@@ -44,7 +57,7 @@
 .navbar-toggle .icon-bar {
     width: 50px;
     height:3px;
-    margin-bottom: 8px;
+    margin-bottom: 13px;
     transition: all 0.5s;
 }
 
