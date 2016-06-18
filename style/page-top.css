@@ -1,0 +1,9 @@
+.main-header{
+	background: url("images/head-image.png") no-repeat!important;
+	-webkit-background-size: 100% auto !important;
+	-moz-background-size: 100% auto !important;
+	-o-background-size: 100% auto !important;
+	 background-size: 100% auto !important;
+	 height:1414px;
+     
+}
