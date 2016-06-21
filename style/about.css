@@ -8,3 +8,69 @@
     margin-top: 60px;
     text-align: center;
 }
+
+#about p {
+    font-family: "Fira Sans";
+    text-align: center;
+    margin-top: 100px;   
+}
+
+.the_circles {
+    margin-top: 175px;
+}
+
+.outer_left {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background: #0690d7;
+    display: inline-block;
+    margin-bottom: 62.5px;
+    margin-right: 80px;
+}
+
+.inner_left {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background: #0690d7;
+    display: inline-block;
+    margin-bottom: 62.5px;
+    margin-right: 50px;
+}
+
+.inner_right {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background: #0690d7;
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.outer_right {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background: #0690d7;
+    display: inline-block;
+    float: right;
+    margin-right: 
+}
+
+.pic {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background: #0690d7;
+    margin-top: -250px;
+}
+
+
+
+@media screen and (max-width: 1198px) {
+    .spec {
+        visibility: hidden;
+    }
+}
