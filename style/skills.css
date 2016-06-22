@@ -1,5 +1,6 @@
 #skills {
-    height: 42.9vw;
+    padding-top: 49px;
+    padding-bottom: 100px;
 }
 
 #skills h3 {
@@ -8,3 +9,36 @@
     margin-top: 60px;
     text-align: center;
 }
+
+#skills p {
+    font-family: "Fira Sans";
+}
+
+#top  {
+    margin-top: 140px;
+    margin-left: 15%;
+}
+
+#mid  {
+    margin-top: 40px;
+    margin-left: 15%;
+}
+
+#bot  {
+    margin-top: 40px;
+    margin-left: 15%;
+}
+
+.left_rec {
+    height: 7px;
+    width: 271px;
+    background: #dbdbdb;
+    margin-left: 15px;
+}
+
+.right_rec {
+    height: 7px;
+    width: 271px;
+    background: #dbdbdb;
+}
+
