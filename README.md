@@ -1,2 +1,2 @@
 # Portfolio_V1
-First attempt at a Portfolio using Jekyll
+First attempt at a Portfolio

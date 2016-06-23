@@ -31,14 +31,67 @@
 
 .left_rec {
     height: 7px;
-    width: 271px;
+    width: 54.2%;
     background: #dbdbdb;
-    margin-left: 15px;
+    position: absolute;
+    z-index: 0;
+}
+
+.left_pink_rec {
+    height: 7px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    z-index: 1;
 }
 
 .right_rec {
     height: 7px;
-    width: 271px;
+    width: 54.2%;
     background: #dbdbdb;
+    position: absolute;
+    z-index: 1;
 }
 
+.right_pink_rec {
+    height: 7px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+    #top, #mid, #bot {
+        margin-left: 10%;
+    }
+    
+    #mid, #bot {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #top {
+        margin-top: 100px;
+    }
+    .left_rec, .right_rec {
+        width: 80.2%;
+    }
+    
+    .normal {
+        width:50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    #oddone {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    #skills p {
+        font-size: 10px;
+    }
+}
