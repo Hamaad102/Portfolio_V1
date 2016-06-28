@@ -1,0 +1,29 @@
+#portfolio .container-fluid {
+    padding-left: 0px;
+}
+
+.row.no-gutter {
+  margin-right:0;
+  margin-left:0;
+}
+.row.no-gutter > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+}
+
+#portfolio {
+    background: #ff005c;
+    margin-top: 50px
+}
+
+#twitch {
+    height: 12vw;
+    width: 12vw;
+    background-color: #6441a5;
+}
+
+#pomo {
+    height: 12vw;
+    width: 12vw;
+    background-color: f32301;
+}
