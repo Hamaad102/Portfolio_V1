@@ -1,0 +1,60 @@
+#contact {
+    padding-top: 60px;
+}
+
+#email {
+    background-color: #ff0000;
+    opacity: 0.75;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#linked {
+    background-color: #0077B5;
+    opacity: 0.75;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#git {
+    background-color: #6cc644;
+    opacity: 0.75;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact p {
+    text-align: center;
+    font-family: "Fira Sans";
+    text-decoration: none;
+    color: white;
+    font-size: 5em;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+#email:hover {
+    opacity: 1;
+}
+
+#linked:hover {
+    opacity: 1;
+}
+
+#git:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    #contact p {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 473px) {
+    #contact p {
+        font-size: 3em;
+    }
+}
