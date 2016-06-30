@@ -2,7 +2,7 @@ $(window).scroll(function(){
    
     console.log($(this).scrollTop);
     
-    if($(this).scrollTop()>=1000){
+    if($(this).scrollTop()>=1100){
         $('.one').addClass('animate');
         $('.two').addClass('animate');
         $('.three').addClass('animate');
