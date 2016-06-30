@@ -3,33 +3,17 @@
     padding-bottom: 100px;
 }
 
-#skills h3 {
-    font-family: "Fira Sans";
-    color: #0690d7;
-    margin-top: 60px;
-    text-align: center;
-}
-
-#skills p {
-    font-family: "Fira Sans";
-}
-
 #top  {
     margin-top: 140px;
     margin-left: 15%;
 }
 
-#mid  {
+#mid, #bot  {
     margin-top: 40px;
     margin-left: 15%;
 }
 
-#bot  {
-    margin-top: 40px;
-    margin-left: 15%;
-}
-
-.left_rec {
+.left_rec, .right_rec {
     height: 7px;
     width: 54.2%;
     background: #dbdbdb;
@@ -37,28 +21,37 @@
     z-index: 0;
 }
 
-.left_pink_rec {
+.left_pink_rec, .right_pink_rec {
     height: 7px;
-    width: 50px;
+    width:1%;
     background: #ff005c;
     position: absolute;
     z-index: 1;
 }
 
-.right_rec {
-    height: 7px;
-    width: 54.2%;
-    background: #dbdbdb;
-    position: absolute;
-    z-index: 1;
+.one.animate {
+    transition: width 2s;
+    width: 40.2%;
 }
 
-.right_pink_rec {
-    height: 7px;
-    width: 50px;
-    background: #ff005c;
-    position: absolute;
-    z-index: 1;
+.two.animate {
+    transition: width 2s;
+    width: 38.2%;
+}
+
+.three.animate {
+    transition: width 2s;
+    width: 50.2%;
+}
+
+.four.animate {
+    transition: width 2s;
+    width: 45.2%;
+}
+
+.five.animate {
+    transition: width 2s;
+    width: 48.2%;
 }
 
 @media screen and (max-width: 991px) {
@@ -87,6 +80,31 @@
     
     #oddone {
         margin-top: 25px;
+    }
+    
+    .one.animate {
+        transition: width 2s;
+        width: 66.2%;
+    }
+
+    .two.animate {
+        transition: width 2s;
+        width: 61.2%;
+    }
+
+    .three.animate {
+        transition: width 2s;
+        width: 76.2%;
+    }
+
+    .four.animate {
+        transition: width 2s;
+        width: 71.2%;
+    }
+
+    .five.animate {
+        transition: width 2s;
+        width: 74.2%;
     }
 }
 

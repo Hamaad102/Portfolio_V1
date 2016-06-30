@@ -4,3 +4,15 @@
 @import "skills.css";
 @import "portfolio.css";
 @import "contact.css";
+
+* {
+    font-family: "Fira Sans";
+}
+
+h3 {
+    font-family: "Fira Sans";
+    color: #0690d7;
+    margin-top: 60px;
+    text-align: center;
+}
+

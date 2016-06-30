@@ -1,5 +1,5 @@
 #contact {
-    padding-top: 60px;
+    padding-top: 200px;
 }
 
 #email {
@@ -25,10 +25,9 @@
 
 #contact p {
     text-align: center;
-    font-family: "Fira Sans";
     text-decoration: none;
     color: white;
-    font-size: 5em;
+    font-size: 3em;
 }
 
 #contact a:hover {
@@ -49,12 +48,12 @@
 
 @media screen and (max-width: 767px) {
     #contact p {
-        font-size: 4em;
+        font-size: 2em;
     }
 }
 
 @media screen and (max-width: 473px) {
     #contact p {
-        font-size: 3em;
+        font-size: 1em;
     }
 }
