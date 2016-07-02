@@ -15,13 +15,13 @@
         <!-- Stylesheet -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-            
-        <link href="style/stylesheet.css" type="text/css" rel="stylesheet">
         
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
- 
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+        
+        <link href="style/stylesheet.css" type="text/css" rel="stylesheet">
+        
     </head>
     
     <body id="top-page">
@@ -72,15 +72,23 @@
                 
                 <div class="the_circles">
                     
-                    <div class="outer_left spec"></div>
-                    <div class="inner_left spec"></div>
-                    <div class="outer_right spec"></div>
-                    <div class="inner_right spec"></div>
+                    <div class="outer_left spec">
+                        <img src="images/mouse.png" class="img-responsive"/>
+                    </div>
+                    <div class="inner_left spec">
+                        <img src="images/pencil.png" class="img-responsive"/>
+                    </div>
+                    <div class="outer_right spec">
+                        <img src="images/multi.png" class="img-responsive"/>
+                    </div>
+                    <div class="inner_right spec">
+                        <img src="images/webpage.png" class="img-responsive"/>
+                    </div>
                     <div class="pic center-block"></div>
                     
                 </div>
 
-                <p>Hey I'm Hamaad Chughtai, an aspiring Software Engineer. I credit my skills as a developer to both being a student at the University of Ottawa and to my own desire to seek knowledge. I've got the drive and potential to develop applications that are both efficient and visually appealing. I'm a full-stack developer based in Ajax, Ontario and I'm always ready to seize the day.</p>
+                <p>Hey I'm <span>Hamaad Chughtai</span>, an aspiring Software Engineer. I credit my skills as a developer to both being a student at the University of Ottawa and to my own desire to seek knowledge. I've got the drive and potential to develop applications that are both efficient and visually appealing. I'm a full-stack developer based in Ajax, Ontario and I'm always ready to seize the day.</p>
         </div>
 
         <div id="skills" class="container">
@@ -153,71 +161,85 @@
         
         </div>
         
-        <div id="portfolio" class="container">
+        <div id="portfolio" class="container-fluid">
             
             <h3>PORTFOLIO</h3>
             
-            <div class="row to">
-                
-                <div class="col-xs-2">
-                    <div id="twitch">
+            <div class="container">
+            
+                <div class="row">
+
+                    <div class="col-xs-4">
                         <a href="#">
-                            <img src="images/twitch.png" class="center-block" />
+                            <img src="images/twitch.png" class="ban_response"/>
+                            <div class="after">
+                                <h2>Twitch Viewer</h2>
+                                <p>Bored and looking to be entertained. Twitch has you covered and this project displays the best that they have to offer.</p>
+                            </div>
                         </a>
-                        <p class="text">Twitch Viewer</p>
                     </div>
-                </div>
-                
-                <div class="col-xs-2">
-                    <div id="pomo">
+
+                    <div class="col-xs-4">
                         <a href="#">
-                            <img src="images/pomo.png" class="center-block" />
+                            <img src="images/pomo.png" class="ban_response"/>
+                            <div class="after">
+                                <h2>Pomodoro Timer</h2>
+                                <p>In the age of the Internet it's hard not to procrastinate. This Pomodoro Timer helps manage and limit your procrastination.</p>
+                            </div>
                         </a>
-                        <p class="text">Pomodoro Timer</p>
                     </div>
-                </div>
-                
-                <div class="col-xs-2">
-                    <div id="wiki">
+
+                    <div class="col-xs-4">
                         <a href="#">
-                            <img src="images/wiki.png" class="center-block" />
+                            <img src="images/simon.png" class="ban_response"/>
+                            <div class="after">
+                                <h2>Simon Says</h2>
+                                <p>All work and no play makes Jack a dull boy. Don't be Jack, play Simon Says and test your memory while having fun!</p>
+                            </div>
                         </a>
-                        <p class="text">Wikipedia Search</p>
                     </div>
+
                 </div>
-                
-                <div class="col-xs-2">
-                    <div id="simon">
+
+                <div class="row">
+
+                    <div class="col-xs-4">
                         <a href="#">
-                            <img src="images/ss.png" class="center-block" />
-                        </a>
-                        <p class="text">Simon Says</p>
+                            <img src="images/weather.png" class="ban_response"/>
+                            <div class="after">
+                                <h2>Local Weather</h2>
+                                <p>This application that provides precise details based on your geolocation.</p>
+                            </div>
+                        </a>    
                     </div>
-                </div>
-                
-                <div class="col-xs-2">
-                    <div id="calculator">
+
+                    <div class="col-xs-4">
                         <a href="#">
-                            <img src="images/calc.png" class="center-block" />
+                            <img src="images/wiki.png" class="ban_response"/>
+                            <div class="after">
+                                <h2>Wikipedia Search</h2>
+                                <p>This project will search Wikipedia enteries and curate a list of results that pretain to your search words.</p>
+                            </div>
                         </a>
-                        <p class="text">Calculator</p>
                     </div>
-                </div>
-                
-                <div class="col-xs-2">
-                    <div id="weather">
+
+                    <div class="col-xs-4">
                         <a href="#">
-                            <img src="images/weather.png" class="center-block" />
+                            <img src="images/calc.png" class="ban_response"/>
+                            <div class="after">
+                                <h2>Calculator</h2>
+                                <p>This application does basic calculations but looks good doing it.</p>
+                            </div>
                         </a>
-                        <p class="text">Local Weather</p>
                     </div>
+
                 </div>
-                
+            
             </div>
             
         </div>
         
-        <div id="contact" class"container-fluid">
+        <div id="contact">
             
             <a href="mailto:Hamaad.Chughtai102@gmail.com">
                 <div id="email"><p>Email me</p></div>

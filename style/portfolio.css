@@ -1,68 +1,79 @@
 #portfolio {
-    padding-top: 49px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 220px;
+    background-color: #e5eaee;
 }
 
-#portfolio .to {
+#portfolio .container {
     margin-top: 140px;
 }
 
-#portfolio .row .col-xs-2 {
-    padding-top: 3%;
+.col-xs-4{
+    padding-right: 0px;
+    padding-left: 0px;
+    position: relative;
 }
 
-#portfolio img{
-    height: 6vw;
-    width: 6vw;
+.ban_response {
+    width: 100%;
+    height: auto;
 }
 
-.info {
-    text-align: center;
-    font-size: 1.5em;
-    color: black;
-    margin-top: 5%;
-}
-
-.text {
-    text-align: center;
-    font-size: 1em;
-    color: black;
-    margin-top: 15px;
+.col-xs-4 .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
     visibility: hidden;
 }
 
-#twitch:hover .text {
+.col-xs-4:hover .after {
     visibility: visible;
+    background: rgba(0, 0, 0, .8);
 }
 
-#pomo:hover .text {
-    visibility: visible;
+.col-xs-4 .after h2 {
+    font-family: "Fira Sans";
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
 }
 
-#wiki:hover .text {
-    visibility: visible;
+.col-xs-4 .after p {
+    font-family: "Fira Sans";
+    font-weight: 300;
+    padding-top: 10px;
+    font-size: 100%;;
+    color: white;
+    text-align: center;   
 }
 
-#simon:hover .text {
-    visibility: visible;
-}
-
-#calculator:hover .text {
-    visibility: visible;
-}
-
-#weather:hover .text {
-    visibility: visible;
-}
-
-@media screen and (max-width: 990px) {
-    .text {
-        font-size: 0.8em;
+@media screen and (max-width: 991px) {
+    .col-xs-4 .after h2 {
+        margin-top: 25%;
+    }
+    .col-xs-4 .after p {
+        display: none;
     }
 }
 
-@media screen and (max-width: 488px) {
-    .text {
+@media screen and (max-width: 758px) {
+    .col-xs-4 .after h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .col-xs-4 .after h2 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .col-xs-4 .after h2 {
         font-size: 0.7em;
     }
 }
