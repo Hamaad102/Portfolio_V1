@@ -48,8 +48,11 @@
     padding-top: 10px;
     font-size: 100%;;
     color: white;
-    text-align: center;   
+    text-align: center; 
+    padding-left: 25px;
+    padding-right: 25px;
 }
+
 
 @media screen and (max-width: 991px) {
     .col-xs-4 .after h2 {
